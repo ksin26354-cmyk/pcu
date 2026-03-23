@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+
+            <form action="#">
+<h2><label>
+
+
+가스 차단기<input type="radio" name="food" value="1"> 열림
+<input type="radio" name="food" value="2"checked> 닫힘 <br><br>
+
+조명<input type="checkbox" value="1"> 거실
+<input type="checkbox" value="2"> 방1
+<input type="checkbox" value="3"> 방2
+<input type="checkbox" value="4"> 복도<br><br>
+
+
+전체 조명<input type="radio" name="light" value="1"> 켜짐
+<input type="radio" name="light" value="2"checked> 꺼짐 <br><br>
+
+
+거실 조명 색상 <input type="color" value="#ff0000"><br><br>
+
+
+자동 예약 꺼짐<input type="time" value="15:30"><br><br>
+
+
+실내 희망 온도 <input type="range" list="temp" min="16" max="30">℃
+<datalist id="temp">
+    <option value="17" label="Low"></option>
+    <option value="23" label="Midium"></option> 
+    <option value="29" label="High"></option>
+</datalist><br><br>
+
+
+습도 : <input type="number" min="0" max="100" step="5" list="cily">%
+<br><br>
+
+
+<input type="submit" value="제출">
+</h2>
+            </form>
+
+    </body>
+</html>
